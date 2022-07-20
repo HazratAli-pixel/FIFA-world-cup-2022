@@ -27,7 +27,7 @@
     }
    
     .Banner-content .LeftSide-content .title{
-        padding: 10px;
+        padding-right: 15px;
         width: 100%;
         font-size: 2rem;
         margin-bottom: 0;
@@ -39,7 +39,7 @@
         margin-bottom: -4px;
     }
     
-    
+
     .card{
         margin: 10px;
     }
