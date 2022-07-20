@@ -77,11 +77,11 @@
         overflow-y: hidden; /* hide grid items that overflow */
         gap: 6px;
     }
-    @media screen and (min-width: 481px) and (max-width: 620px){
+    @media screen and (min-width: 481px) and (max-width: 640px){
         .button-list .btn{
             font-size: 15px;
             padding: 10px 0;
-            margin: 15px;
+            margin: 10px;
             font-weight: 600;
         }
     }
