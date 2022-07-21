@@ -1,6 +1,7 @@
 
 /* Style for common Device like computer, laptop, adroid tv etc */
 
+
 *{
     scroll-behavior: smooth;
 }
@@ -8,6 +9,7 @@ body{
     box-sizing: border-box;
     margin: 10px;
 }
+
 .container{
     max-width: 1150px;
     margin: 0 auto;
@@ -158,6 +160,7 @@ footer{
 }
 
 .footer-title{
+    /* font-size: 3rem; */
     text-align: center;
     padding: 6vw 0 2vw 0;
 }
