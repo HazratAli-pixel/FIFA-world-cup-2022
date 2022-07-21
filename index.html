@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIFA world cup-2022</title>
+    <!-- stylesheet for fontsawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="assets/trophy2.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style_m.css">
-    <link rel="stylesheet" href="css/style_t.css"> 
+    <!-- three types of css stylesheet -->
+    <link rel="stylesheet" href="css/style.css">  <!-- this stylesheet is commone device like desktop, laptop, smart tv etc -->
+    <link rel="stylesheet" href="css/style_m.css"> <!-- this stylesheet is small device like all kinds of smartphone  -->
+    <link rel="stylesheet" href="css/style_t.css"> <!-- this stylesheet is midium device like tablet, tablet computer etc -->
     <style>
+        /* google fonts import */
         @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
     </style>
 
 </head>
 <body>
     <div class="container">
+        <!-- banner section start here -->
         <section class="Banner">
             <div class="Banner-content">
                 <div class="LeftSide-content">
                     <h1 class="title">The Greatest show on the earth</h1>
-                    <p class="description" title="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p class="description" title="FIFA World Cup Qatar 2022™ tickets are back! It's first come, first served so don't delay – your dream tickets could be just a click away."> FIFA World Cup Qatar 2022™ tickets are back! It's first come, first served so don't delay – your dream tickets could be just a click away.</p>
                     <button class="active"><a style="color: white;" href="">Watch Live <i class="fa-solid fa-angles-right"></i></a></button>
                 </div>
                 <div class="RightSide-content">
@@ -29,16 +33,22 @@
                 </div>
             </div>
         </section>
+        <!-- banner section ends here -->
+
+        <!-- Main Contents start here -->
         <main>
             <section class="blog-content">
+                <!-- left side button  -->
                 <div class="blog-leftSide">
                     <div class="button-list">
-                        <button class="btn"><a href="">Upcoming Match</a></button>
+                        <button class="btn"><a href="match.html">Upcoming Match</a></button>
                         <button class="btn"><a href="">All Group</a></button>
                         <button class="btn active"><a style="color: white;" href="">Blog</a></button>
                     </div>
                 </div>
+                <!-- right side which maintain card part -->
                 <div class="blog-rightside">
+                    <!-- card secton. in this section i create 9 card. in desktop, its show all card. but in tablet device its show 6 card -->
                     <div class="card">
                         <div class="card-img">
                             <img src="./assets/BlogImage.png" alt="">
@@ -193,33 +203,39 @@
                         </div>
                     </div>
                 </div>
+                <!-- All view button. which display only tablet device -->
                 <div class="viewallbtn">
                     <button class="btn active"><a href="">View All</a></button>
                 </div>
             </section>
         </main>
+        <!-- Main Contents ends here -->
     </div>
+    <!-- footer setion start here -->
     <footer>
         <section class="container">
             <div class="footer-title">
                 <h1 style="font-family: 'Dela Gothic One', cursive;">Goal</h1>
             </div>
             <hr>
+            <!-- short link -->
             <div class="footer-link">
                 <a href="">Contact Us</a>
                 <a href="">Terms of Service</a>
                 <a href="">Privacy Policy</a>
                 <a href="">Privacy Settings</a>
                 <a href="">Goal App</a>
-                <a href="">Goal Liv</a>
+                <a href="">Goal Live</a>
             </div>
+            <!-- social Icon for all device. -->
             <div class="footer-social-icon">
-                <span> <i class="fa-brands fa-facebook"></i></span>
-                <span> <i class="fa-brands fa-twitter"></i></span>
-                <span> <i class="fa-brands fa-whatsapp"></i></span>
-                <span> <i class="fa-brands fa-linkedin-in"></i></span>
+                <a href="https://www.facebook.com/ali.fbads"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+                <a href="https://web.whatsapp.com/"> <i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.youtube.com/"> <i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </section>
     </footer>
+    <!-- footer setion ends here -->
 </body>
 </html>

@@ -1,7 +1,6 @@
 
 /* Style for common Device like computer, laptop, adroid tv etc */
 
-
 *{
     scroll-behavior: smooth;
 }
@@ -21,6 +20,9 @@ body{
     background-color: rgb(32, 31, 31);
     color: white;
     border-radius: 15px;
+    animation: ColorCng 6s ease-in infinite;
+    -webkit-animation: ColorCng 6s ease-in infinite;
+    animation-play-state: running;
 }
 .Banner-content .LeftSide-content{
     padding-left: 80px;    
@@ -64,7 +66,39 @@ a{
         font-size: 2.5rem;
     }
 }
-
+.LeftSide-content button{
+    transition: transform 2s;
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -ms-transition: transform 2s;
+    -o-transition: transform 2s;
+}
+/* transition part */
+.LeftSide-content button:hover{
+    transform: scaleX(1.3);
+    -webkit-transform: scaleX(1.3);
+    -moz-transform: scaleX(1.3);
+    -ms-transform: scaleX(1.3);
+    -o-transform: scaleX(1.3);
+}
+/* animation part */
+@keyframes ColorCng {
+    0%{
+        /* background-color: rgb(70, 77, 76); */
+        background-color: rgb(0, 0, 0);
+    }
+    /* 50%{
+        background-color: rgb(156, 161, 154);
+        color: rgb(7, 7, 7);
+    } */
+    50%{
+        background: linear-gradient(rgba(151, 31, 145, 0.8), rgba(28, 105, 105, 0.8));
+    }
+    100%{
+        /* background-color: rgb(70, 77, 76); */
+        background-color: rgb(22, 18, 18);
+    }
+}
 
 
 .blog-content{
@@ -116,6 +150,7 @@ a{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    /* background: linear-gradient(rgba(224, 75, 217, 0.5), rgba(108, 219, 219, 0.5)); */
 }
 .card:hover{
     box-shadow: 8px 8px 8px rgb(202, 192, 192);
@@ -129,6 +164,11 @@ a{
     font-size: 15px;
     font-weight: 600;
     border-radius: 5px;
+}
+.card .card-button button:hover{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
 }
 .card .card-img img{
     width: 100%;
@@ -150,6 +190,35 @@ a{
 .viewallbtn{
     display: none;
 }
+.country_flag{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.flag{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.country_name{
+    text-align: center;
+}
+/* .country_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.country_name p{
+    margin: 0 3px;
+    font-size: 15px;
+} */
+
+.card-content .match_time{
+    text-align: center;
+}
+
 
 
 
@@ -183,16 +252,19 @@ footer .footer-social-icon{
     padding-bottom: 35px;
     text-align: center;
 }
-footer .footer-social-icon span{
+footer .footer-social-icon a{
     padding: 10px;
     margin: 0px 5px;
+    color: white;
     border-radius: 9px;
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
     -ms-border-radius: 9px;
     -o-border-radius: 9px;
 }
-footer .footer-social-icon span:hover{
+footer .footer-social-icon a:hover{
     color: black;
     background-color: white;
 }
+
+

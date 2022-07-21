@@ -1,0 +1,32 @@
+.card{
+    align-items: stretch;
+    border: 1px solid rgb(218, 213, 213);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.country_flag{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 35px 20px 0 20px;
+    margin: 0;
+}
+.country_flag img{
+    width: 30px;
+}
+.country_name >h3{
+    padding: 5px;
+}
+.country_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+.match_time p{
+    text-align: center;
+    margin: 0;
+}

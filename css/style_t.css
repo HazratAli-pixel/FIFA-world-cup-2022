@@ -93,6 +93,7 @@
 
     .viewallbtn{
         display: block;
+        text-align: center;
     }
     .viewallbtn .btn a{
         color: white;
@@ -110,10 +111,5 @@
     footer .footer-link a{
         padding: 15px;
         justify-content: space-between;
-    }
-    /* .footer-link{
-        text-align: center;
-        padding: 2vw 0 2vw 0;
-    } */
-    
+    }    
   }
